@@ -1,0 +1,14 @@
+https://www.hackerrank.com/challenges/python-division/problem?h_r=next-challenge&h_v=zen
+
+from __future__ import division
+def div(a, b):
+    c = a // b
+    print (c)
+    c = (a/b)
+    print (c)
+    
+if __name__ == '__main__':
+    a = int(raw_input())
+    b = int(raw_input())
+    div(a, b)
+
