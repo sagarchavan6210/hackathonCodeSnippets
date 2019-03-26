@@ -1,0 +1,11 @@
+https://www.hackerrank.com/challenges/python-loops/problem?h_r=profile
+
+def sqr(i):
+    s = i * i
+    print (s)
+if __name__ == '__main__':
+    n = int(raw_input())
+    i = 0
+    for i in range(0, n):
+        sqr(i)
+        i =+ 1
