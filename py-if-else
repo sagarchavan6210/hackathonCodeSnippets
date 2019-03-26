@@ -1,0 +1,16 @@
+https://www.hackerrank.com/challenges/py-if-else/problem
+
+#!/bin/python
+
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+N = int(raw_input())
+
+result = N%2
+
+if result == 0 :
+    if (N >= 6 and N <= 20):
+        print ("Weird")
+    else:
+        print ("Not Weird")
+else:
+    print ("Weird")
